@@ -1,11 +1,6 @@
 import { useEffect } from "react"
 
-export default function Filter({
-  searchCountries,
-  searchInput,
-  setCountries,
-  countries,
-}) {
+export default function Filter({ searchCountries, searchInput, setCountries }) {
   // const [isLoading, setIsLoading] = useState(true)
 
   const region = [
