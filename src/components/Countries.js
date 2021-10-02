@@ -51,7 +51,6 @@ export default function Countries() {
               searchCountries={searchCountries}
               searchInput={searchInput}
               setCountries={setCountries}
-              countries={countries}
             />
           </div>
           {searchInput.length > 0 ? (
